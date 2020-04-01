@@ -22,4 +22,4 @@ process.env.SEED = process.env.SEED || 'este-es-el-seed-desarrollo';
 // ======================================
 // ============ENVIO CORREO==============
 // ======================================
-process.env.PASSMAIL = process.env.PASSMAIL || 'klwzxjmbjxiimvcf';
+process.env.PASSMAIL = process.env.PASSMAIL || 'hcnatiggrrrjydbf';

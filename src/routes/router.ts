@@ -14,7 +14,7 @@ router.post('/contactar', (req: express.Request, res: express.Response) => {
     service: 'Gmail',
     auth: {
       user: 'sadcasolutions@gmail.com',
-      pass: 'klwzxjmbjxiimvcf'
+      pass: process.env.PASSMAIL
     }
   });
 
@@ -115,7 +115,7 @@ router.post(
       service: 'Gmail',
       auth: {
         user: 'sadcasolutions@gmail.com',
-        pass: 'klwzxjmbjxiimvcf'
+        pass: process.env.PASSMAIL
       }
     });
 
@@ -159,11 +159,5 @@ router.post(
     );
   }
 );
-
-router.get('/', (req: any, res: any) => {
-  return res.json({
-    ok: true
-  });
-});
 
 export default router;
