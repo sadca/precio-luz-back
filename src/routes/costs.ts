@@ -1,11 +1,12 @@
 import { Router } from 'express';
+import MySQL from '../mysql/mysql';
 import express = require('express');
 
 const router = Router();
 
-router.get('/', (req: express.Request, res: express.Response) => {
+router.post('/', (req: express.Request, res: express.Response) => {
   res.json({
-    ok: true,
+    ok: true
   });
 });
 
