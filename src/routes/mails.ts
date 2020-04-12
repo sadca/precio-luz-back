@@ -108,7 +108,7 @@ router.post(
 
       for (let archivo of archivosTemp) {
         console.log('Subimos el archivo ' + archivo.name);
-        archivo.mv(`dist/public/${archivo.name}`, (err: any) => {
+        archivo.mv(`public/${archivo.name}`, (err: any) => {
           if (err) {
             console.log('Error al subir el archivo');
             console.log(err);
