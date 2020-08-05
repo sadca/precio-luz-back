@@ -24,7 +24,7 @@
     "connect-timeout": "^1.9.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-fileupload": "^1.1.6",
+    "express-fileupload": "^1.1.9",
     "mysql": "^2.18.1",
     "node-env-file": "^0.1.8",
     "nodemailer": "^6.4.4",
